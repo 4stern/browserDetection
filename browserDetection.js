@@ -129,9 +129,7 @@ var rb = rb || {};
 			bit					: getBit(sUserAgent),
 			mobile				: getMobile(sUserAgent),
 			tablet				: getTablet(sUserAgent),
-			fullAgent			: sUserAgent,
-			helper				: {
-			}
+			fullAgent			: sUserAgent
 		};
 	};
 })(rb);
