@@ -1,6 +1,6 @@
 browserDetection
 ================
-This function interpretes the user-agent and returned a object with informations about it.
+This function interpretes a given user-agent-string and return a object with informations about it.
 
 
 Usage
