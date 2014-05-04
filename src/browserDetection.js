@@ -28,7 +28,7 @@ var rb = rb || {};
 		var retVal = sUndetectedName;
 		if(sUserAgent){
 			var results = sUserAgent.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*([\d\.]+)/i);
-			if(results.length>=3){
+			if( results && results.length>=3){
 				retVal = results[2];
 			}
 		}
@@ -38,7 +38,7 @@ var rb = rb || {};
 		var retVal = sUndetectedName;
 		if(sUserAgent){
 			var results = sUserAgent.match(/(Presto|WebKit|Gecko|Trident|Mosaic|Netscape|KTHML|Tasman|Robin|Blink|Servo|Lynx|Links)/i);
-			if(results.length>=2){
+			if( results && results.length>=2){
 				retVal = results[1];
 			}
 		}
@@ -48,7 +48,7 @@ var rb = rb || {};
 		var retVal = sUndetectedName;
 		if(sUserAgent){
 			var results = sUserAgent.match(/(Presto|WebKit|Gecko|Trident|Mosaic|Netscape|KTHML|Tasman|Robin|Blink|Servo|Lynx|Links(?=\/))\/?\s*([\d\.]+)/i);
-			if(results.length>=3){
+			if( results && results.length>=3){
 				retVal = results[2];
 			}
 		}
