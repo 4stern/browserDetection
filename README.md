@@ -23,5 +23,4 @@ The `ua` is now a object with the following informations about your client:
       bit : 32|64,
       mobile : true|false,
       tablet : true|false,
-      fullAgent : string
-    }
+      fullAgent : string }
