@@ -1,6 +1,6 @@
 browserDetection
 ================
-This function interpretes the user-agend and returned a object with informations about it.
+This function interpretes a given user-agent-string and return a object with informations about it.
 
 
 Usage
@@ -23,5 +23,4 @@ The `ua` is now a object with the following informations about your client:
       bit : 32|64,
       mobile : true|false,
       tablet : true|false,
-      fullAgent : string
-    }
+      fullAgent : string }
