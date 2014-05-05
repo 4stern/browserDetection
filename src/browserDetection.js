@@ -76,7 +76,7 @@ var rb = rb || {};
 	            } else if (RegExp["$1"] == "9x"){
 	            	retVal = "Windows ME";
 	            } else {
-	            	retVal = RegExp["$1"];
+	            	retVal = "Windows "+RegExp["$1"];
 	            }
 	        }
 	        var result = sUserAgent.match(/(Linux|Debian|Ubuntu|Solaris|Unix|UnixWare|SmartOS|Sinix|SCO|IRIX|HP-UX|Dynix|BSD|Sun|MacOS|Mac|BeOS|Haiku|NewOS|X11|Android|bada|blackberry|palm|symbian|meego|iOS)+/ig);
